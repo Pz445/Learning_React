@@ -1,0 +1,40 @@
+.navbar {
+  background: rgb(168, 209, 154);
+  /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(168, 209, 154, 1) 0%, rgba(17, 178, 33, 1) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(168, 209, 154, 1) 0%, rgba(17, 178, 33, 1) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(168, 209, 154, 1) 0%, rgba(17, 178, 33, 1) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8d19a', endColorstr='#11b221', GradientType=1);
+  /* IE6-9 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation, .brandDiv {
+  width: 100%;
+  align-self: center;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navItem {
+  display: inline-block;
+}
+
+.navLink {
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
